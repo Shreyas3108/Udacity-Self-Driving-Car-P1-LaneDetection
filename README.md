@@ -1,3 +1,4 @@
+
 # Finding Lanes on Road
 
 The goal of the project is to find lanes on Road using computer vision on either Image or Videos. 
@@ -10,8 +11,10 @@ The goal of the project is to find lanes on Road using computer vision on either
 
 libraries can be installed by using the pip command 
 > pip install numpy
+
 > pip install moviepy
-> pip install 
+
+> conda install opencv3
 # Overview 
 
 The project uses image data given as test and is processed by using various techniques such as  
@@ -40,13 +43,12 @@ By using the average recieved from both the lines on the right and left we can e
 
 # Input 
 
-
-
-
+![Input image](https://github.com/Shreyas3108/Udacity-Self-Driving-Car-P1-LaneDetection/blob/master/CarND-LaneLines-P1-master/test_images/solidWhiteCurve.jpg) 
 
 
 # Output 
 
+![Output Image](https://github.com/Shreyas3108/Udacity-Self-Driving-Car-P1-LaneDetection/blob/master/CarND-LaneLines-P1-master/test_images/solidWhiteCurve.jpg_detected.jpg)
 
 
 
